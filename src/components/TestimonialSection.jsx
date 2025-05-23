@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react';
 import { FiChevronLeft, FiChevronRight, FiStar } from 'react-icons/fi';
+import riskiImg from '../assets/riski.jpg';
+import afdhalImg from '../assets/afdhal.jpg';
+import tariqImg from '../assets/tariq.jpg';
 
 const TestimonialSection = () => {
   const testimonials = [
@@ -28,10 +31,18 @@ const TestimonialSection = () => {
       rating: 4,
     },
     {
+      id: 3,
+      name: 'Riski',
+      role: 'Arsitektur',
+      image: riskiImg,
+      text: 'Saya sudah menjadi pelanggan Bloods selama beberapa tahun dan saya sangat puas dengan produk mereka. Kualitasnya selalu konsisten dan desainnya selalu menarik. Saya merekomendasikan Bloods kepada semua orang.',
+      rating: 4.5,
+    },
+    {
       id: 4,
       name: 'Afdhal Hadi Solahudin',
       role: 'Astronot',
-      image: 'https://lh4.googleusercontent.com/fwge57Nuq29j8gSt8SHSiIKDum8ccZ1W1JyawhsDSQqsQCyfUJGPzUC47RRz9eu825X50O9so2dPCMWwUnh6KAhyNHpyxjRH4pmZHIL_QJDUNCrxXywplMrigWQiso6CZw=w1280',
+      image: afdhalImg,
       text: 'Bahan dari Bloods sangat nyaman dan berkualitas tinggi. Saya sudah membeli beberapa produk dari mereka dan semuanya memuaskan. Pelayanan pelanggan juga sangat responsif.',
       rating: 4.5,
     },
@@ -39,16 +50,8 @@ const TestimonialSection = () => {
       id: 1,
       name: 'M.Attariq Annajmus Saqib',
       role: 'Gamers',
-      image: 'https://lh4.googleusercontent.com/ogmzy67Amanf0Q1eoQ65O-EvUG5WhpQsY8EIPJAZjHlwLMRTIW7eAC_vX_dzyVxwewOA5Kl9p8y18gchiNr3V_gV0_-3TI_j69xOcISLgUv7hej-ByL_LoVWIuL0HmTsxg=w1280',
+      image: tariqImg,
       text: 'Saya sangat terkesan dengan koleksi pakaian dari Bloods. Desainnya modern dan stylish, cocok untuk berbagai acara. Saya pasti akan membeli lagi di masa depan.',
-      rating: 4.5,
-    },
-    {
-      id: 3,
-      name: 'Riski',
-      role: 'Arsitektur',
-      image: 'https://lh3.googleusercontent.com/k3SS1zKzdhvP0tg8QL-Np5xaUb4JLoP6N7sAWqHV9v8lJcgE8MP0Aze6D3yUn4__-f8EXLj5bgyO5yKr1C6lSTVfPoX326Il-Q3OIGIbL3UUxGHYgxCMN50JHasx_2wQCw=w1280',
-      text: 'Saya sudah menjadi pelanggan Bloods selama beberapa tahun dan saya sangat puas dengan produk mereka. Kualitasnya selalu konsisten dan desainnya selalu menarik. Saya merekomendasikan Bloods kepada semua orang.',
       rating: 4.5,
     },
   ];
