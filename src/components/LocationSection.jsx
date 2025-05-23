@@ -62,14 +62,6 @@ const LocationSection = () => {
                                     <p>Email: store@bloods.id</p>
                                 </div>
                             </div>
-
-                            <div>
-                                <h4 className="font-semibold mb-2">Transportasi</h4>
-                                <p className="text-neutral-600">
-                                    Dekat dengan Stasiun MRT Bundaran HI dan Halte TransJakarta Monas.
-                                    Tersedia parkir mobil dan motor.
-                                </p>
-                            </div>
                         </div>
                     </div>
                 </div>
